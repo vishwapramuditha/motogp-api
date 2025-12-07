@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Ducati Lenovo Team",
+        "manufacturer": "Ducati",
+        "manager": "Davide Tardozzi",
+        "riders": [
+            63,
+            23
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Monster Energy Yamaha MotoGP",
+        "manufacturer": "Yamaha",
+        "manager": "Massimo Meregalli",
+        "riders": [
+            20,
+            21
+        ]
+    }
+]

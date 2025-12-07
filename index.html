@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoGP API Developers | Free MotoGP Data</title>
+    <meta name="description"
+        content="Free Public API for MotoGP Schedules, Riders, Teams, and Circuit data. Perfect for Discord bots, websites, and apps.">
+    <meta name="keywords" content="MotoGP API, Racing Data, Developer API, Free Sports API, MotoGP Schedule JSON">
+    <meta name="author" content="MotoGP Community">
+
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="MotoGP Developers API">
+    <meta property="og:description" content="Build your next racing app with our free MotoGP data API.">
+    <meta property="og:image" content="images/hero.png">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-nav">
+        <div class="logo">
+            <span class="logo-red">Moto</span>GP <span class="logo-gray">API</span>
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="loadDashboard(); return false;" class="active">Dashboard</a>
+            <a href="#docs" onclick="loadResource('docs'); return false;">Docs</a>
+            <button class="cta-btn">Get API Key (Free)</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <div class="sidebar-section">
+                <h3>Data Resources</h3>
+                <ul class="menu-list">
+                    <li><a href="#riders" onclick="loadResource('riders'); return false;">Riders</a></li>
+                    <li><a href="#teams" onclick="loadResource('teams'); return false;">Teams</a></li>
+                    <li><a href="#schedule" onclick="loadResource('schedule'); return false;">Schedule</a></li>
+                    <li><a href="#standings" onclick="loadResource('standings'); return false;">Standings</a></li>
+                    <li><a href="#tracks" onclick="loadResource('tracks'); return false;">Tracks</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="content">
+            <div id="dynamic-content">
+                <!-- Dashboard or Data will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

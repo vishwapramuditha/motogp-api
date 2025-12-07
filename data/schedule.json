@@ -1,0 +1,32 @@
+[
+    {
+        "round": 1,
+        "grand_prix": "Grand Prix of Qatar",
+        "circuit": "Lusail International Circuit",
+        "date": "2024-03-10",
+        "country": "Qatar",
+        "sessions": {
+            "fp1": "2024-03-08T15:45:00Z",
+            "practice": "2024-03-08T20:00:00Z",
+            "fp2": "2024-03-09T14:00:00Z",
+            "qualifying": "2024-03-09T14:40:00Z",
+            "sprint": "2024-03-09T19:00:00Z",
+            "race": "2024-03-10T20:00:00Z"
+        }
+    },
+    {
+        "round": 2,
+        "grand_prix": "Grand Prix of Portugal",
+        "circuit": "Autodromo Internacional do Algarve",
+        "date": "2024-03-24",
+        "country": "Portugal",
+        "sessions": {
+            "fp1": "2024-03-22T10:45:00Z",
+            "practice": "2024-03-22T15:00:00Z",
+            "fp2": "2024-03-23T10:10:00Z",
+            "qualifying": "2024-03-23T10:50:00Z",
+            "sprint": "2024-03-23T15:00:00Z",
+            "race": "2024-03-24T14:00:00Z"
+        }
+    }
+]

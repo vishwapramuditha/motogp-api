@@ -1,0 +1,28 @@
+[
+    {
+        "id": "losail",
+        "name": "Lusail International Circuit",
+        "country": "Qatar",
+        "length_km": 5.38,
+        "corners": {
+            "left": 6,
+            "right": 10
+        },
+        "longest_straight_m": 1068,
+        "record_lap": "1:52.772",
+        "image_url": "https://example.com/losail.png"
+    },
+    {
+        "id": "portimao",
+        "name": "Autodromo Internacional do Algarve",
+        "country": "Portugal",
+        "length_km": 4.59,
+        "corners": {
+            "left": 6,
+            "right": 9
+        },
+        "longest_straight_m": 970,
+        "record_lap": "1:38.725",
+        "image_url": "https://example.com/portimao.png"
+    }
+]

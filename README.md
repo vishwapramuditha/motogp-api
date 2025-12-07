@@ -18,25 +18,24 @@ Whether you are building a **Discord Bot**, a **Fan Website**, or a **Mobile App
 ### Prerequisites
 - Node.js installed.
 
-### Installation
-1. Clone the repo.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the server:
+### Installation / Deployment
+This is a **Static Website**. You don't need to run a server in production!
+1. **GitHub Pages / Netlify / Vercel**: Simply upload the `public` folder or push this repo.
+2. **Local Testing**:
    ```bash
    npm start
    ```
-4. Visit `http://localhost:3000` to see the **Developer Dashboard**.
+   (This runs a simple static file server)
 
-## 🔑 API Keys
-This API is secured. You need an API Key to fetch data.
-- **Demo Key**: `demo-key`
+## 🔑 Data Access
+The API is now Open Source and Static.
+- **Riders**: `/api/riders.json`
+- **Schedule**: `/api/schedule.json`
+- **Tracks**: `/api/tracks.json`
 
 **Example Request:**
 ```http
-GET /api/riders?api_key=demo-key
+GET https://your-site.com/api/riders.json
 ```
 
 ## 🔮 Future Roadmap

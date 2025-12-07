@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Francesco Bagnaia",
+        "number": 63,
+        "team": "Ducati Lenovo Team",
+        "country": "Italy",
+        "bike": "Ducati",
+        "birth_date": "1997-01-14",
+        "birth_place": "Torino, Italy",
+        "height_cm": 176,
+        "weight_kg": 67,
+        "victories": 18,
+        "podiums": 35,
+        "poles": 18
+    },
+    {
+        "id": 2,
+        "name": "Fabio Quartararo",
+        "number": 20,
+        "team": "Monster Energy Yamaha MotoGP",
+        "country": "France",
+        "bike": "Yamaha",
+        "birth_date": "1999-04-20",
+        "birth_place": "Nice, France",
+        "height_cm": 177,
+        "weight_kg": 66,
+        "victories": 11,
+        "podiums": 29,
+        "poles": 16
+    }
+]

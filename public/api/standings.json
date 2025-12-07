@@ -1,0 +1,26 @@
+{
+    "riders_championship": [
+        {
+            "position": 1,
+            "rider": "Francesco Bagnaia",
+            "points": 25
+        },
+        {
+            "position": 2,
+            "rider": "Brad Binder",
+            "points": 20
+        }
+    ],
+    "constructors_championship": [
+        {
+            "position": 1,
+            "constructor": "Ducati",
+            "points": 25
+        },
+        {
+            "position": 2,
+            "constructor": "KTM",
+            "points": 20
+        }
+    ]
+}

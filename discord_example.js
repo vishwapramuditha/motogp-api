@@ -12,14 +12,13 @@
 // const axios = require('axios');
 
 // const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages] });
-// const API_URL = 'http://localhost:3000/api';
-// const API_KEY = 'demo-key'; // Your API Key
+// const API_URL = 'https://your-site-url.com/api'; // URL to your deployed site
 
 // client.on('messageCreate', async message => {
 //     if (message.content === '!nextrace') {
 //         try {
-//             // Fetch data from YOUR API
-//             const response = await axios.get(`${API_URL}/schedule?api_key=${API_KEY}`);
+//             // Fetch data from YOUR STATIC API (no key needed)
+//             const response = await axios.get(`${API_URL}/schedule.json`);
 //             const races = response.data;
 
 //             // Find next race
